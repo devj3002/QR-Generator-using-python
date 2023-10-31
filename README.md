@@ -3,31 +3,24 @@
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
 # QR Code Generator
-![](https://github.com/vivekthedev/python-mini-project/blob/main/IMG/vivekScreen01.png)
-
-![](https://github.com/vivekthedev/python-mini-project/blob/main/IMG/vivekScreen02.png)
 
 ## 🛠️ Description
-Generate QR Code with Tkinter GUI and save the QR Code into the Local Directory (cwd).
-The project utilises `pyqrcode` and `png` module in python to generate QR code of any text. 
-The Tkinter Entry field takes the value and store it in a variable which is then converted to Image Code.
+A web application developed using `Django` framework, designed to generate and download QR code from any text. The project  utilises `pyqrcode` and `png` module in python to generate QR code of any text. 
 
 ## ⚙️ Language Used
-Made with `python`
+Made with `python` - Django framework
 
-`tkinter` module for the GUI
-
-`pyqrcode` module for the image.
+`pyqrcode` module for the QR.
 
 
 ## 🌟 How to run
-- Clone the Project
-- Run `pip install requirements.txt`
-- Run `python qrGenerator.py`
+- Clone the Project   
+- Create and activate virtual environment (recommended):   
+  Creation :   
+  `python -m venv venv`  
+  Activation :   
+  Windows - `venv\Scripts\activate`   
+  MacOS/ Linux - `source venv/bin/activate`   
+- Run `pip install -r requirements.txt`
+- Run `python manage.py runserver`
 
-
-## 🤖 Author
-[Vivek](https://github.com/vivekthedev)
-
-Any Questions?
-[Twitter](https://twitter.com/vivekthedev)
